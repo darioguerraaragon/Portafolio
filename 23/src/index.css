@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* header */
+header{
+  /* border: solid 1px black; */
+  border-radius: 10px;
+  height: 15vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+            
+header .contactMe {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1%;
+  /* border: solid black 1px; */
+  border-radius: 10px;
+  background-color: rgb(238, 231, 231);
+  box-shadow: rgba(99, 99, 99, 0.2) 1px 2px 10px 2px;
+}
+
+.textPresentation {
+  /* border: solid black 1px; */
+  width: 100%;
+  background-color: rgb(167, 19, 167);
+  color: whitesmoke;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.contactMe img {
+  width: 7%;
+  cursor: pointer;
+}
+
+/* section */
+section {
+  height: 70vh;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2%;
+  /* border: solid black 1px; */
+}
+
+article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+article div {
+  /* border: solid black 1px; */
+  border-radius: 15px;
+  width: 30%;
+  height: 60vh;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 1px 2px 10px 2px;
+}
+
+article div:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 1px 2px 20px 5px;
+  transition: all ease .3s;
+}
+
+article div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.skillsDiv {
+  background-image: url('/imagenes/40752.jpg');
+  background-size: cover;
+  color: rgb(146, 20, 146);
+}
+
+.aboutme {
+  background-image: url('/imagenes/5361360.jpg');
+  background-size: cover;
+  color: rgb(146, 20, 146);
+}
+
+.projects {
+  background-image: url('/imagenes/34334.jpg');
+  background-size: cover;
+  color: rgb(146, 20, 146);
+}
+
+/* infos */
+.Info {
+  /* border: solid black 1px; */
+  border-radius:10px ;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+  width: 70%;
+  height: 70%;
+  box-shadow: rgba(99, 99, 99, 0.2) 1px 2px 10px 2px;
+}
+
+.Info .close {
+  /* border: solid black 1px; */
+  width: 100%;
+}
+
+.close img {
+  width: 4%;
+  cursor: pointer;
+}
+
+/* skills section */
+
+.containerSkills {
+  /* border: solid black 1px; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.imageSkills {
+  /* border: solid black 1px; */
+  width: 40%;
+  height: 100%;
+}
+
+.imageSkills img {
+  width: 100%;
+  height: 80%;
+}
+
+.mySkills {
+  /* border: solid black 1px; */
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mySkills div {
+  width: 30%;
+  font-weight: bold;
+}
+
+.mySkills img {
+  width: 25%;
+  cursor: pointer;
+}
+
+/* about me section */
+.containerAboutme {
+  /* border: solid black 1px; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.imgAboutme {
+  width: 35%;
+  height: 100%;
+  /* border: solid black 1px; */
+}
+
+.imgAboutme img {
+  width: 100%;
+  height: 100%;
+}
+
+.contentAboutme {
+  width: 65%;
+  height: 100%;
+  /* border: solid black 1px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y:scroll;
+}
+
+.contentAboutme .textAboutme {
+  width: 70%;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+.myProfessionalSkills {
+  /* border: solid black 1px; */
+  width: 70%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.myProfessionalSkills figure {
+  width: 20%;
+}
+
+.myProfessionalSkills img {
+  width: 50%;
+}
+
+/* projects section */
+.containerProjects {
+  /* border: solid black 1px; */
+  max-width: 100%;
+  height: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.projectsCards {
+  /* border: solid black 1px; */
+  width: 30%;
+  height: 95%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 1px 2px 10px 2px;
+  margin-top: 1%;
+}
+
+.projectsCards:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 1px 2px 20px 5px;
+  transition: all ease .3s;
+}
+
+.projectsCards .video {
+  /* border: solid black 1px; */
+  border-radius: 10px;
+  width: 100%;
+  height: 50%;
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.infoproject {
+  height: 50%;
+  width: 100%;
+  /* border: solid black 1px; */
+  display: flex;
+  flex-flow: column ;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.infoproject img {
+  width: 15%;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+.projectDescription {
+  overflow-y: scroll;
+  margin-top: 2%;
+}
