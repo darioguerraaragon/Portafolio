@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <header>
         <div className='textPresentation'>
-            <h2>!Hi there my name is Dario Guerra Aragon , I'm a Front-end Developer</h2>
+            <h2 className='tracking-in-contract-bck'>!Hi there my name is Dario Guerra Aragon <br/>
+              I'm a Front-end Developer
+            </h2>
         </div>
         <div className='contactMe'>
           <img src='/imagenes/github.png' onClick={(()=>{window.open('https://github.com/darioguerraaragon', '_blank');})}/>
