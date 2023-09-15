@@ -7,7 +7,7 @@ const Projects = ({setprojects}) => {
             <img src='/imagenes/close.png' onClick={(()=>{setprojects(false)})}/>
         </div>
         <div className='containerProjects'>
-          <div className='projectsCards vibrate-1'>
+          <div className='projectsCards '>
             <div className='video'><video src='/videosprojects/proacademy.mp4' autoPlay loop/></div>
             <div className='infoproject'>
               <h2>ProAcademy</h2>
